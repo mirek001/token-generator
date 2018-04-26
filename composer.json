@@ -1,5 +1,6 @@
 {
     "name": "mirek001/token-generator",
+    "minimum-stability": "dev",
     "description": "Simple time token generator.",
     "require": {
         "php": ">=5.3.0"
