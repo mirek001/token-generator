@@ -1,9 +1,9 @@
 <?php
 
-namespace mirek001\token_generator;
+namespace mirek001\TokenGenerator;
 
 
-class TOKEN_GENERATOR{
+class TokenGenerator{
 	private $_secret_key = null;
 	private $_token = null;
 

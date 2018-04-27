@@ -1,8 +1,12 @@
 {
     "name": "mirek001/token-generator",
-    "minimum-stability": "dev",
     "description": "Simple time token generator.",
+    "type": "library",
+    "license": "MIT",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {"mirek001\\TokenGenerator\\": "src"}
     }
 }
