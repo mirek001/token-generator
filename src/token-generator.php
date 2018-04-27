@@ -14,8 +14,8 @@ class TOKEN_GENERATOR{
 	public function get_minute_token($key){
 		$md5_key = md5($key);
 		$base64_key = base64_encode($key);
-		$this->_token = md5($base64_key.'+'.date("Y-n-j").'+'.md5($key).'+'.date("H:i:s").'+'.$key);
-		return $this->_token$
+		$this->_token = md5($base64_key.'+'.date("Y-n-j").'+'.md5($key).'+'.date("H:i").'+'.$key);
+		return $this->_token;
 	}
 
 	public function get_random_token($key){
