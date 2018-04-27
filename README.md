@@ -1,5 +1,5 @@
 # test
 
-# token-generator
-token generator to authenticate on remote server
+# token-generator (MD5)
+Generate one minute token to authenticate on remote server or random token
 
